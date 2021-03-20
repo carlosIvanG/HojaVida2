@@ -93,21 +93,8 @@ article{
 	background-color: rgba(249, 249, 249, 0.7);
 }
 
-@media screen and (min-width: 500px){
-	img{
-		width: 50%;
-		margin-left: 20%;
-	}
-
-	article{
-		background-color: red;
-		margin-left: 155px;
-	}
-
-	#lista > li > a{
-		display:inline;
-		font-style: 9px;
-		font-family: "Times New Roman", Times, serif;
-		list-style: none;
+@media screen and (max-width:500px){
+	body > h1{
+		color: blue;
 	}
 }
